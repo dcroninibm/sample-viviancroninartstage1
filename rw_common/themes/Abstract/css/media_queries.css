@@ -1,0 +1,175 @@
+/* We use this media query to add styles to any device that supports media queries */
+@media only screen {
+
+}
+
+@media only screen and (max-width: 768px) {
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="month"],
+	input[type="week"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	textarea {
+	  width: 90%;
+	 }
+}
+
+@media only screen and (max-width: 480px) {
+	#site_title {
+		font-size: 1.2em;
+		letter-spacing: 0;
+	}
+
+	nav#main_navigation>ul, 
+	#site_title, 
+	#navigation_bar, 
+	.modal_popup_link_wrapper, 
+	#mobile_nav_toggle {
+		height: 56px !important;
+		line-height: 56px !important;
+	}
+
+	#slogan h2 {
+		padding: 10px;
+		font-size: 1.5em;
+	}
+
+	#alignment_wrapper,
+	#alignment_wrapper .items li .outerContainer {
+	  height: 300px !important;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+	nav#main_navigation a {
+		font-size: 0.9em;
+	}
+}
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (max-width: 768px) {
+	#content,
+	aside#sidebar, 
+	#extraContent1,
+	#extraContent2,
+	#extraContent4,
+	#modal_popup 
+	 {
+		font-size: 0.9em;
+		line-height: 1.6em;
+	}
+
+	#banner .bx-controls-direction {
+		display: none;
+	}
+
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5, 
+	h6 {
+		line-height: 1.2;
+	}
+
+	h1 {
+		font-size: 2.6em;
+		letter-spacing: -2px;
+	}
+
+	h2 {
+		font-size: 2.2em;
+		letter-spacing: -1px;
+	}
+
+	h3 {
+		font-size: 1.8em;
+		letter-spacing: -1px;
+	}
+
+	h4 {
+		font-size: 1.6em;
+		letter-spacing: 0px;
+	}
+
+	h5 {
+		font-size: 1.4em;
+		letter-spacing: -0x;
+	}
+
+	h6 {
+		font-size: 1.2em;
+		letter-spacing: 0;
+	}
+
+	.white-popup {
+	  padding: 20px;
+	  margin: 10px auto;
+	}
+
+	#extraContent4 {
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	#content_container {
+		padding: 20px 10px;
+	}
+
+	#extraContent1 .row {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#extraContainer1 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#extraContent2 {
+		padding: 20px;
+	}
+
+	#mobile_navigation_opener {
+		display: inline-block;
+	}
+
+	#main_navigation {
+		display: none;
+	}
+
+	.modal_popup_link i {
+		top: 0;
+	}
+
+}
+
+/* Used to alter styles for screens at least 1280px wide. */
+@media only screen and (min-width: 769px) {
+	#mobile_navigation_opener, nav#mobile_navigation {
+		display: none !important;
+	}
+}
+
+
+/* Used to alter styles for screens at least 1440px wide. */
+@media only screen and (min-width: 1440px) {}
+
+/* Apply styles to screens in landscape orientation */
+@media only screen and (orientation: landscape) {}
+
+/* Apply styles to screens in portrait orientation */
+@media only screen and (orientation: portrait) {}
+
+/* We also use Modernizr to add a .touch class to the body when applicable */
+/* You can prepend this class to anything and it will style only for touch devices */
+.touch .your-element {}

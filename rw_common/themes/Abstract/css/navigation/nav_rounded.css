@@ -1,0 +1,10 @@
+#mobile_navigation_opener,
+.modal_popup_link i {
+	border-radius: 24px;
+}
+
+nav#main_navigation>ul>li>a.current,
+nav#main_navigation>ul>li>a.currentAncestor, 
+nav#main_navigation>ul>li>a:hover {
+	border-radius: 60px;
+}

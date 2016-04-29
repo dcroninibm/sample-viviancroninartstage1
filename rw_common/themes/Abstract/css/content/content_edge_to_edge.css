@@ -1,0 +1,4 @@
+#content_container,
+#content_container>.columns {
+	padding: 0px;
+}

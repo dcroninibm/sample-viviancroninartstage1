@@ -1,0 +1,7 @@
+/* Targets El Dorado lightbox stack, as well as InstaViewr to ensure box-sizing is properly set for that stack within this theme since the theme uses a different box-sizing. */
+
+.jquery-lightbox, #fancybox-wrap {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}

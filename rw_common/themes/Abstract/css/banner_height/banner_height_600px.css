@@ -1,0 +1,25 @@
+#banner {
+	height: 600px;
+	overflow: hidden;
+}
+
+#extraContent2 {
+	max-height: 480px;
+}
+
+#extraContainer2 {
+	max-height: 400px;
+}
+
+#alignment_wrapper,
+#alignment_wrapper .items li .outerContainer {
+  height: 480px;
+}
+
+@media only screen and (max-width: 480px) {
+
+	#banner {
+		height: 375px;
+	}
+
+}

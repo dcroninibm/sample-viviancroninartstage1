@@ -1,0 +1,10 @@
+#extraContent1 .row {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#extraContainer1,
+#extraContent1>.row>.columns {
+	padding-left: 0px;
+	padding-right: 0px;
+}

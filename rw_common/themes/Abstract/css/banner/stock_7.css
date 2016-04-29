@@ -1,0 +1,11 @@
+#banner {
+	background-image: url(../../images/banner/stock_7.jpg);
+}
+
+@media only screen and (max-width: 480px) {
+
+	#banner {
+		background-image: url(../../images/banner/stock_7_small.jpg);
+	}
+
+}
